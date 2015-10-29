@@ -1,0 +1,1 @@
+We're not ready to accept contributions at this time, but if you have any feedback or ideas for new task snippets, please post to the Issues list. Thanks!
