@@ -7,9 +7,9 @@ the data-bound controls. This typically involves a lot of boilerplate code that
 you can minimize by using this task snippet.
 
 To implement change notification for non-collection properties:
-1. Either derive your class from this class, or use its contents to implement INotifyPropertyChanged on your class. (This 
+ 1. Either derive your class from this class, or use its contents to implement INotifyPropertyChanged on your class. (This 
 is useful for classes that already derive from something else, such as Page.)
-2. Implement your binding source properties using the pattern shown in the [Usage](#usage) section.  
+ 2. Implement your binding source properties using the pattern shown in the [Usage](#usage) section.  
 
 ```C#
 using System;
