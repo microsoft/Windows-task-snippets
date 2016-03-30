@@ -1,25 +1,35 @@
 # Determine whether a file exists
 
-Determines whether a file exists in a given folder. If no folder is provided, the app's local storage
-is used by default. You can also specify whether to recursively search subdirectories or 
-only the top-level folder. The file name should include the extension, but is not case-sensitive.  
+Determines whether a file exists in a given folder or a folder subtree. The file name should include the extension, but is not case-sensitive.  
 
 ```C#
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Search;
 
-public static async Task<bool> FileExistsAsync(string fileName, bool isRecursive, StorageFolder folder = null)
+public static async Task<bool> FileExistsInFolderAsync(StorageFolder folder, string filename)
 {
-    folder = folder ?? ApplicationData.Current.LocalFolder;
-    IReadOnlyList<StorageFile> files = isRecursive ?
-        await folder.GetFilesAsync(CommonFileQuery.OrderByName) :
-        await folder.GetFilesAsync(CommonFileQuery.DefaultQuery);
-    return files.Any(x => x.Name.Equals(x.Name, StringComparison.OrdinalIgnoreCase)); 
+    var item = await folder.TryGetItemAsync(filename);
+    return (item != null) && item.IsOfType(StorageItemTypes.File);
 }
+
+public static async Task<bool> FileExistsInSubtreeAsync(StorageFolder rootFolder, string filename)
+{
+    if (filename.IndexOf('"') >= 0) throw new ArgumentException("filename");
+    var options = new QueryOptions
+    {
+        FolderDepth = FolderDepth.Deep,
+        UserSearchFilter = $"filename:=\"{filename}\"" // “:=” is the exact-match operator
+    };
+    var files = await rootFolder.CreateFileQueryWithOptions(options).GetFilesAsync();
+    return files.Count > 0;
+}
+
+public static async Task<bool> FileExistsAsync(StorageFolder folder, string filename, 
+    bool isRecursive = false) => isRecursive 
+        ? await FileExistsInSubtreeAsync(folder, filename) 
+        : await FileExistsInFolderAsync(folder, filename);
 ```
 
 ## See also
