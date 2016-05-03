@@ -19,7 +19,7 @@ public static Color ConvertHexToColor(string hex)
 
 public static string ConvertColorToHex(Color color)
 {
-    return $"#{color.A}{color.B}{color.G}{color.B}"; 
+    return $"#{color.A}{color.R}{color.G}{color.B}"; 
 }
 ```
 
