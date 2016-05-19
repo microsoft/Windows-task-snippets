@@ -13,6 +13,11 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 
 ## Snippets
 
+### Data binding
+
+[Data binding change notification](tasks/Data-binding-change-notification.md)  
+[Data-bind an InkCanvas control](tasks/InkCanvas-data-binding.md)  
+
 ### Files and folders
 
 [File exists](tasks/File-exists.md)  
@@ -46,5 +51,4 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [Bing image-of-the-day URI](tasks/Bing-image-of-the-day-URI.md)  
 [Clipboard text](tasks/Clipboard-text.md)  
 [Convert the DPI of rectangles (C++)](tasks/Convert-DPI-rectangles.md)  
-[Data binding change notification](tasks/Data-binding-change-notification.md)  
 [Play sound once or looped](tasks/Play-sound-once-or-looped.md)  
