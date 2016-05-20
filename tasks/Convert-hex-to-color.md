@@ -25,7 +25,7 @@ public static string ConvertColorToHex(Color color)
 
 ## See also
 
-[Color class](https://msdn.microsoft.com/library/windows/apps/windows.ui.colors.aspx)  
+[Color sructure](https://msdn.microsoft.com/library/windows/apps/windows.ui.color.aspx)  
 [ARGB](https://en.wikipedia.org/wiki/RGBA_color_space#ARGB_.28word-order.29)  
 [Interpolated strings](https://msdn.microsoft.com/library/dn961160.aspx) (strings with a $ prefix)  
 [?: operator](https://msdn.microsoft.com/library/ty67wk28.aspx)  
