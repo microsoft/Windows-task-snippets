@@ -52,3 +52,5 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [Clipboard text](tasks/Clipboard-text.md)  
 [Convert the DPI of rectangles (C++)](tasks/Convert-DPI-rectangles.md)  
 [Play sound once or looped](tasks/Play-sound-once-or-looped.md)  
+[Time-specific salutation](tasks/Time-specific-salutation.md)  
+  
