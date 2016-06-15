@@ -20,7 +20,7 @@ public static string Salutation()
  System.Diagnostics.Debug.WriteLine(Salutation());
  ```
  
- ## See also
+## See also
 
 [DateTime](https://msdn.microsoft.com/library/windows/apps/windows.foundation.datetime.aspx)  
 [?: operator](https://msdn.microsoft.com/library/ty67wk28.aspx)  
