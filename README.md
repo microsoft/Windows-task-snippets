@@ -62,5 +62,6 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [Clipboard text](tasks/Clipboard-text.md)  
 [Get user info](tasks/User-info.md)  
 [Convert the DPI of rectangles (C++)](tasks/Convert-DPI-rectangles.md)  
+[Get a device's current location](tasks/Location-of-device.md)  
 [Time-specific salutation](tasks/Time-specific-salutation.md)  
   
