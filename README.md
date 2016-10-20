@@ -30,6 +30,16 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [Convert hex to color](tasks/Convert-hex-to-color.md)  
 [Convert RGB to HSV](tasks/Convert-RGB-to-HSV.md)  
 
+### Images
+
+[Bing image-of-the-day URI](tasks/Bing-image-of-the-day-URI.md)  
+[Capture an image](tasks/Capture-an-image.md)  
+
+### Media
+
+[Concatenate media files](tasks/Media-file-concatenation.md)  
+[Play sound once or looped](tasks/Play-sound-once-or-looped.md)  
+
 ### UI thread
 
 [UI thread access from background thread](tasks/UI-thread-access-from-background-thread.md)  
@@ -49,11 +59,8 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 ### Miscellaneous
 
 [App version and title](tasks/App-version-and-title.md)  
-[Bing image-of-the-day URI](tasks/Bing-image-of-the-day-URI.md)  
-[Capture an image](tasks/Capture-an-image.md)  
 [Clipboard text](tasks/Clipboard-text.md)  
 [Get user info](tasks/User-info.md)  
 [Convert the DPI of rectangles (C++)](tasks/Convert-DPI-rectangles.md)  
-[Play sound once or looped](tasks/Play-sound-once-or-looped.md)  
 [Time-specific salutation](tasks/Time-specific-salutation.md)  
   
