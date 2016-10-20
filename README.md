@@ -51,6 +51,7 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [Bing image-of-the-day URI](tasks/Bing-image-of-the-day-URI.md)  
 [Capture an image](tasks/Capture-an-image.md)  
 [Clipboard text](tasks/Clipboard-text.md)  
+[Get user info](tasks/User-info.md)  
 [Convert the DPI of rectangles (C++)](tasks/Convert-DPI-rectangles.md)  
 [Play sound once or looped](tasks/Play-sound-once-or-looped.md)  
 [Time-specific salutation](tasks/Time-specific-salutation.md)  
