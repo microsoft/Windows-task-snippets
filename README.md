@@ -34,6 +34,7 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 
 [UI thread access from background thread](tasks/UI-thread-access-from-background-thread.md)  
 [UI thread task await from background thread](tasks/UI-thread-task-await-from-background-thread.md)  
+[UI update after a delay](tasks/UI-update-after-delay.md)  
 [UI updates with a timer](tasks/UI-updates-with-a-timer.md)  
 
 ### Sockets
