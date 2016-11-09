@@ -1,3 +1,8 @@
+﻿<!---
+  category: FilesFoldersAndLibraries
+  language: cs
+-->
+
 # Determine whether a file exists
 
 Determines whether a file exists in a given folder or a folder subtree. The file name should include the extension, but is not case-sensitive.  

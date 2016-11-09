@@ -1,3 +1,8 @@
+<!---
+  category: Threading
+  language: cs
+-->
+
 # Update the UI thread from a background thread
 
 Enables code running on a background thread to schedule work that will run on the UI thread.

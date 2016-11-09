@@ -1,3 +1,8 @@
+<!---
+  category: FilesFoldersAndLibraries
+  language: cs
+-->
+
 # Preserve access to a StorageFolder
 
 Saves access permissions to a specific StorageFolder that a user has granted access to.  

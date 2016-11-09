@@ -1,3 +1,8 @@
+<!---
+  category: IdentitySecurityAndEncryption
+  language: cs
+-->
+
 # Get user info
 
 Helpers for getting basic info about the current system user, such as their name or domain. 

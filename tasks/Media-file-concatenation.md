@@ -1,3 +1,8 @@
+<!---
+  category: AudioVideoAndCamera 
+  language: cs
+-->
+
 # Concatenate media files
 
 Concatenate two or more media files and save the result to a file using the specified preferences. 

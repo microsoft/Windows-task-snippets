@@ -1,3 +1,8 @@
+<!---
+  category: Threading
+  language: cs
+-->
+
 # Update the UI from a periodic timer
 
 Performs the specified action at the specified interval in minutes. 

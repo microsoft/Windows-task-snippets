@@ -1,3 +1,8 @@
+<!---
+  category: ControlsLayoutAndText
+  language: cs
+-->
+
 # Get or set clipboard text
 
 Gets or sets the current clipboard text. 

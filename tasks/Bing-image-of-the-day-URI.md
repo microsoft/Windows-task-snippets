@@ -1,3 +1,8 @@
+<!---
+  category: NetworkingAndWebServices 
+  language: cs
+-->
+
 # Get the Bing image of the day URI
 
 Gets the URI for the the Bing image of the day, optionally 

@@ -1,3 +1,8 @@
+<!---
+  category: GraphicsAndAnimation
+  language: cs
+-->
+
 # Get all system colors as a collection
 
 Gets a collection containing all system colors supported in Universal Windows Platform (UWP) apps.

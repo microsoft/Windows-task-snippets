@@ -1,6 +1,11 @@
+<!---
+  category: CustomUserInteractions Inking
+  language: cs
+-->
+
 # Data-bind an InkCanvas control
 
-Enables you use XAML data binding with ink stroke data in an InkCanvas control.
+Enables you to use XAML data binding with ink stroke data in an InkCanvas control.
 
 The InkCanvas class does not expose a dependency property for its ink stroke data, so there is no built-in target for data binding. 
 This snippet provides a InkStrokes attached property that you can use to bind to an InkStrokeContainer. This enables you to manipulate 

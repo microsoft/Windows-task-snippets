@@ -1,3 +1,8 @@
+<!---
+  category: AppSettings 
+  language: cs
+-->
+
 # Get app title and version info
 
 Gets the title and version of an app as specified in the project manifest.  

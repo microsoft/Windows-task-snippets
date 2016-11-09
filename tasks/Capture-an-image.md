@@ -1,3 +1,8 @@
+<!---
+  category: GraphicsAndAnimation
+  language: cs
+-->
+
 # Capture an image
 
 Captures an image using the device's camera and returns it as a bitmap.

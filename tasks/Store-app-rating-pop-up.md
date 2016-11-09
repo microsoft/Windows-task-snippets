@@ -1,3 +1,8 @@
+<!---
+  category: ControlsLayoutAndText
+  language: cs
+-->
+
 # Show a pop-up asking the user to rate the app on its Store page
 
 Displays a pop-up message that asks the user to rate the app. If the user agrees, 

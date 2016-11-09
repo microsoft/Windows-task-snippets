@@ -1,3 +1,8 @@
+<!---
+  category: ControlsLayoutAndText
+  language: cs
+-->
+
 # Show a dialog box
 
 These methods provide convenient ways to show a dialog box, 

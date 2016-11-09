@@ -1,3 +1,8 @@
+<!---
+  category: NetworkingAndWebServices 
+  language: cs
+-->
+
 # Sending and receiving a message over UDP
 
 These methods provide simple string-based communication over a UDP socket connection:

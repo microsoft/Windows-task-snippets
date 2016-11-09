@@ -1,3 +1,8 @@
+<!---
+  category: MapsAndLocation 
+  language: cs
+-->
+
 # Get a device's current location
 
 Gets the device's current location (represented as longitude and latitude), if the user allows it. 

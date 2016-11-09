@@ -1,3 +1,8 @@
+<!---
+  category: Threading
+  language: cs
+-->
+
 # Update the UI after a delay
 
 Performs the specified action after the specified number of milliseconds. 

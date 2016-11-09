@@ -1,3 +1,8 @@
+<!---
+  category: GraphicsAndAnimation
+  language: cs
+-->
+
 # Convert hex to color
 
 Converts a hexadecimal string representation of a color to its Windows.UI.Color ARGB (alpha, red, green, blue) equivalent or vice-versa. 

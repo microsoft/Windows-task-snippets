@@ -1,3 +1,8 @@
+<!---
+  category: GraphicsAndAnimation
+  language: cs
+-->
+
 # Convert RGB to HSV
 
 Converts RGB (red, green, blue) color values to HSV (hue, saturation, value). 

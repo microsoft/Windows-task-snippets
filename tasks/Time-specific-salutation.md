@@ -1,3 +1,7 @@
+<!---
+  language: cs
+-->
+
 # Time-specific salutation
 
 Generates a simple greeting based on the time of day.

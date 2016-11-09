@@ -1,3 +1,8 @@
+<!---
+  category: FilesFoldersAndLibraries
+  language: cs
+-->
+
 # Launch executable
 
 Launches the default app or other executable (.exe or .bat file) associated with the specified filename extension.  

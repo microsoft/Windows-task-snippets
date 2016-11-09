@@ -1,3 +1,8 @@
+<!---
+  category: Threading
+  language: cs
+-->
+
 # Await a UI task sent from a background thread
 
 Enables code running on a background thread to await a task that must run on the UI thread.  

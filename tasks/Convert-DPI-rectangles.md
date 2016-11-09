@@ -1,3 +1,8 @@
+<!---
+  category: GraphicsAndAnimation
+  language: cpp
+-->
+
 # Convert the DPI of rectangles (C++)
 
 Converts a rectangle in a window from logical coordinates to physical coordinates or vice-versa, 

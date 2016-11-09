@@ -1,3 +1,8 @@
+<!---
+  category: Data
+  language: cs
+--->
+
 # Implement change notification
 
 Provides a simple, standard change-notification implementation.

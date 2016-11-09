@@ -1,3 +1,8 @@
+<!---
+  category: AudioVideoAndCamera 
+  language: cs
+-->
+
 # Play a sound once or looped
 
 Plays a sound, either once or continuously.
