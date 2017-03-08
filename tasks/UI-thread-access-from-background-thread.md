@@ -17,20 +17,32 @@ using System.Threading.Tasks;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
 
-public static async Task CallOnUiThreadAsync(DispatchedHandler handler) => 
-    await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(
-        CoreDispatcherPriority.Normal, handler);
+public static async Task CallOnUiThreadAsync(CoreDispatcher dispatcher, DispatchedHandler handler) =>
+    await dispatcher.RunAsync(CoreDispatcherPriority.Normal, handler);
+    
+public static async Task CallOnMainViewUiThreadAsync(DispatchedHandler handler) => 
+    await CallOnUiThreadAsync(CoreApplication.MainView.CoreWindow.Dispatcher, handler);
 ```
 
 ## Usage
 
 ```C#
+// Single-view app can assume the UI thread is the main view (since there is only one).
 private async void NetworkInformation_NetworkStatusChanged(object sender)
 {
-    await CallOnUiThreadAsync(() =>
+    await CallOnMainViewUiThreadAsync(() =>
     {
         // Update the UI to reflect the current network status. 
     });
+}
+
+// Multi-view app should use the dispatcher for the UI thread they want to run on.
+private async void NetworkInformation_NetworkStatusChanged(object sender)
+{
+    await CallOnUiThreadAsync(this.Dispatcher, () =>
+    {
+        // Update this page's UI to reflect the current network status.
+    }
 }
 ```
 
