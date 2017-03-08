@@ -112,3 +112,7 @@ public static async Task RenderToImageElement(
 [Lambda expressions](https://msdn.microsoft.com/library/bb397687.aspx) (anonymous methods using the "=>" syntax)  
 [Extension methods](https://msdn.microsoft.com/en-us/library/bb383977.aspx)  
 [Interpolated strings](https://msdn.microsoft.com/library/dn961160.aspx) (strings with a $ prefix)  
+
+The [UWP Community Toolkit](http://docs.uwpcommunitytoolkit.com/en/master/) includes an extended version of this task snippet in the form of a DispatcherHelper class 
+([source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/DispatcherHelper.cs), 
+[docs](http://docs.uwpcommunitytoolkit.com/en/master/helpers/DispatcherHelper/)).  
