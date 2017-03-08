@@ -50,3 +50,7 @@ private async void NetworkInformation_NetworkStatusChanged(object sender)
 
 [CoreDispatcher class](https://msdn.microsoft.com/library/windows/apps/windows.ui.core.coredispatcher.aspx)  
 [Lambda expressions](https://msdn.microsoft.com/library/bb397687.aspx) (anonymous methods using the "=>" syntax)  
+
+The [UWP Community Toolkit](http://docs.uwpcommunitytoolkit.com/en/master/) includes an extended version of this task snippet in the form of a DispatcherHelper class 
+([source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/DispatcherHelper.cs), 
+[docs](http://docs.uwpcommunitytoolkit.com/en/master/helpers/DispatcherHelper/)).  
