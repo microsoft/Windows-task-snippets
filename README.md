@@ -26,6 +26,7 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 
 ### Colors
 
+[Color names and contrasting foregrounds](tasks/Color-names-and-contrasting-foregrounds.md)  
 [Colors as a collection](tasks/Colors-as-a-collection.md)  
 [Convert hex to color](tasks/Convert-hex-to-color.md)  
 [Convert RGB to HSV](tasks/Convert-RGB-to-HSV.md)  
