@@ -49,6 +49,10 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [UI updates with a timer](tasks/UI-updates-with-a-timer.md)  
 [Thread switching within a task](tasks/Thread-switching-within-a-task.md)  
 
+### Tasks
+
+[Cancelling a task after a delay](tasks/Cancelling-a-task-after-a-delay.md)
+
 ### Sockets
 
 [Socket programming with TCP](tasks/Socket-programming-with-TCP.md)  
