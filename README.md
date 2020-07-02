@@ -48,6 +48,10 @@ For more UWP samples, see [Windows on GitHub](http://microsoft.github.io/windows
 [UI update after a delay](tasks/UI-update-after-delay.md)  
 [UI updates with a timer](tasks/UI-updates-with-a-timer.md)  
 
+### Tasks
+
+[Cancelling a task after a delay](tasks/Cancelling-a-task-after-a-delay.md)
+
 ### Sockets
 
 [Socket programming with TCP](tasks/Socket-programming-with-TCP.md)  
