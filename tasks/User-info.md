@@ -42,8 +42,7 @@ public static class UserInfoHelper
     {
         var users = await User.FindAllAsync(UserType.LocalUser,
             UserAuthenticationStatus.LocallyAuthenticated);
-        object val = await users.FirstOrDefault()?.GetPropertyAsync(
-            KnownUserProperties.ProviderName);
+        object val = await users.FirstOrDefault()?.GetPropertyAsync(property);
         return val.ToString();
     } 
 }
